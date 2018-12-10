@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Tienda de electrónica</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/diseno.css" type="text/css" rel="stylesheet" media="screen,projection"/> -->
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'css/diseno.css' %}">
+  <link rel="stylesheet" href="{% static 'css/materialize.css' %}">
+</head>
+<body>
+  <nav role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Empresa</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="administrador.html">Iniciar Sesión</a></li>
+        <li><a href="#">Usuario</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="administrador.html">Iniciar Sesión</a></li>
+        <li><a href="#">Usuario</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h2 class="light" align="center" >Tienda de electrónica</h2>
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      </div>
+      <div class="row center">
+        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="header center orange-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="header center orange-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="header center orange-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+  </div>
+
+  <footer class="page-footer orange">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Tienda Electrónica</h5>
+              <li><a id="tamano" class="grey-text text-lighten-4">Casa Matriz y Consultas E-Commerce</a></li>
+              <li><a id="tamano" class="grey-text text-lighten-4">Avenida Libertador Bernardo O’Higgins 845</a></li>
+              <li><a id="tamano" class="grey-text text-lighten-4">Horario de atención telefónica</a></li>
+              <li><a id="tamano" class="grey-text text-lighten-4">Lunes a Viernes de 9:30 a 19:00 Hrs.</a></li>
+              <li><a id="tamano" class="grey-text text-lighten-4">Fono: 22 632 2313</a></li>
+
+            </div>
+            <div class="col l3 s12">
+              <h5 class="white-text">Conócenos</h5>
+              <ul>
+                <li><a id="tamano" class="white-text" href="#!">Nuestra historia</a></li>
+                <li><a id="tamano" class="white-text" href="#!">Trabaja con nosotros</a></li>
+                <li><a id="tamano" class="white-text" href="#!">Nuestras tiendas</a></li>
+                <li><a id="tamano" class="white-text" href="#!">Contáctanos</a></li>
+              </ul>
+            </div>
+            <div class="col l3 s12">
+              <h5 class="white-text">¿Necesitas ayuda?</h5>
+              <ul>
+                <li><a id="tamano" class="white-text" href="#!">Términos y Condiciones</a></li>
+                <li><a id="tamano" class="white-text" href="#!">Cambios y Devoluciones</a></li>
+                <li><a id="tamano" class="white-text" href="#!">Despacho a Domicilio</a></li>
+                <li><a id="tamano" class="white-text" href="#!">Retiro en Tiendas</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          Hecho por <a class="orange-text text-lighten-3" href="http://materializecss.com">Industrias CCB</a>
+          </div>
+        </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

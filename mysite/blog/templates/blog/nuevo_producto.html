@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      <title>Nuevo producto</title>
+
+      <!-- CSS -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="css/diseno.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+    <body>
+
+      <h2 class="light" align="center">Agregar un nuevo producto</h2>
+
+      <div class="row" id="container">
+        <form class="col s12" align="center">
+          <div class="row" align="center">
+            <div class="input-field col s6">
+              <input class="light" placeholder="Nombre del producto" id="nombre_producto" type="text" class="validate" required="required"> 
+            </div>
+            <div class="input-field col s6">
+              <input class="light" placeholder="Tipo de producto" id="tipo_producto" type="text" class="validate" required="required">
+            </div><br>
+          </div>
+
+          <div class="row" align="center">
+            <div class="input-field col s6">
+              <input class="light" placeholder="Precio" id="disabled" type="number" class="validate" required="required">
+            </div>  
+          </div>
+
+          <div class="row" align="center">
+            <div class="input-field col s12">
+              <textarea class="light" name="descripcion" rows="50" placeholder="Descripción del producto" id="disabled" type="text" class="validate" required="required"></textarea>
+            </div>
+          </div><br>
+
+          <div class="row center">
+              <button type="reset" id="download-button" class="btn-large waves-effect waves-light orange">Borrar Datos</button>
+              <button type="submit" id="download-button" class="btn-large waves-effect waves-light orange">Guardar Datos</button>
+          </div>
+        </form>
+
+        <div class="row center">
+          <a href="administrador.html" id="download-button" class="btn-large waves-effect waves-light orange">Volver</a>
+        </div>
+      </div><br>
+
+      <footer class="page-footer orange">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Tienda Electrónica</h5>
+              <li><a id="tamano" class="grey-text text-lighten-4">Casa Matriz y Consultas E-Commerce</a></li>
+              <li><a id="tamano" class="grey-text text-lighten-4">Avenida Libertador Bernardo O’Higgins 845</a></li>
+              <li><a id="tamano" class="grey-text text-lighten-4">Horario de atención telefónica</a></li>
+              <li><a id="tamano" class="grey-text text-lighten-4">Lunes a Viernes de 9:30 a 19:00 Hrs.</a></li>
+              <li><a id="tamano" class="grey-text text-lighten-4">Fono: 22 632 2313</a></li>
+
+            </div>
+            <div class="col l3 s12">
+              <h5 class="white-text">Conócenos</h5>
+              <ul>
+                <li><a id="tamano" class="white-text" href="#!">Nuestra historia</a></li>
+                <li><a id="tamano" class="white-text" href="#!">Trabaja con nosotros</a></li>
+                <li><a id="tamano" class="white-text" href="#!">Nuestras tiendas</a></li>
+                <li><a id="tamano" class="white-text" href="#!">Contáctanos</a></li>
+              </ul>
+            </div>
+            <div class="col l3 s12">
+              <h5 class="white-text">¿Necesitas ayuda?</h5>
+              <ul>
+                <li><a id="tamano" class="white-text" href="#!">Términos y Condiciones</a></li>
+                <li><a id="tamano" class="white-text" href="#!">Cambios y Devoluciones</a></li>
+                <li><a id="tamano" class="white-text" href="#!">Despacho a Domicilio</a></li>
+                <li><a id="tamano" class="white-text" href="#!">Retiro en Tiendas</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          Hecho por <a class="orange-text text-lighten-3" href="http://materializecss.com">Industrias CCB</a>
+          </div>
+        </div>
+      </footer>
+
+      <!--  Scripts-->
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script src="js/init.js"></script>
+
+    </body>
+  </html>

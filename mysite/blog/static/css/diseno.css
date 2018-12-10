@@ -1,0 +1,31 @@
+div{
+	font-size:18px;
+}
+
+body{
+	color: #15619C;
+}
+
+#colorfondo{
+	background-color: white;
+}
+
+#container{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+::placeholder { font-size: 18px; }
+::placeholder { color: orange; }
+
+h2{
+	color: orange;
+}
+
+#tamano{
+	font-size: 16px;
+}
+
+nav{
+    background-color: orange;
+}
