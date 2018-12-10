@@ -45,10 +45,14 @@
 		<h2 class="light" class="header center orange-text" align="center">Usuario Administrador</h2>
 
 		<div class="row center">
-       		<a href="nueva_tienda.html" id="download-button" class="btn-large waves-effect waves-light orange">Agregar nueva tienda</a>
+       		<a href="{% url 'nuevatienda' %}" id="download-button" class="btn-large waves-effect waves-light orange">Agregar nueva tienda</a>
     	</div>
     	<div class="row center">
-        	<a href="nuevo_producto.html" id="download-button" class="btn-large waves-effect waves-light orange">Agregar nuevo producto</a>
+        	<a href="{% url 'nuevoproducto' %}" id="download-button" class="btn-large waves-effect waves-light orange">Agregar nuevo producto</a>
+    	</div>
+
+			<div class="row center">
+        	<a href="{% url 'vendedor' %}" id="download-button" class="btn-large waves-effect waves-light orange">Opción vendedor</a>
     	</div>
 
 	    <footer class="page-footer orange">

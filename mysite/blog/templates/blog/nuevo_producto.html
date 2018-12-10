@@ -1,3 +1,5 @@
+{% load staticfiles %}
+
 <!DOCTYPE html>
   <html lang="en">
     <head>
@@ -7,8 +9,8 @@
 
       <!-- CSS -->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-      <link href="css/diseno.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link rel="stylesheet" href="{% static 'css/diseno.css' %}" media="screen,projection">
+      <link rel="stylesheet" href="{% static 'css/materialize.css' %}" media="screen,projection">
     </head>
     <body>
 
@@ -18,7 +20,7 @@
         <form class="col s12" align="center">
           <div class="row" align="center">
             <div class="input-field col s6">
-              <input class="light" placeholder="Nombre del producto" id="nombre_producto" type="text" class="validate" required="required"> 
+              <input class="light" placeholder="Nombre del producto" id="nombre_producto" type="text" class="validate" required="required">
             </div>
             <div class="input-field col s6">
               <input class="light" placeholder="Tipo de producto" id="tipo_producto" type="text" class="validate" required="required">
@@ -28,7 +30,7 @@
           <div class="row" align="center">
             <div class="input-field col s6">
               <input class="light" placeholder="Precio" id="disabled" type="number" class="validate" required="required">
-            </div>  
+            </div>
           </div>
 
           <div class="row" align="center">
@@ -44,7 +46,7 @@
         </form>
 
         <div class="row center">
-          <a href="administrador.html" id="download-button" class="btn-large waves-effect waves-light orange">Volver</a>
+          <a href="{% url 'inicio' %}" id="download-button" class="btn-large waves-effect waves-light orange">Volver</a>
         </div>
       </div><br>
 
